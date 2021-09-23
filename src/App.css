@@ -1,0 +1,84 @@
+nav {
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(to right, 	#8B0000, 	#F08080);
+  color: white;
+  /* margin-bottom: 20px; */
+}
+.navitems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.navitems h2 {
+  font-family: 'Alegreya SC';
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.navitems button {
+  width: 20%;
+  height:8vh;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color:#FF8C00;
+  font-family: 'Aclonica';
+  color: white;
+  font-size: 20px;
+  margin: 2% 2% 2% 2%;
+}
+
+.fetchbtn:hover {
+  background-color: #fff;
+  color: #B22222;
+}
+.userdatacontainer {
+  width: 100%;
+  height: fit-content;
+  /* background-image: linear-gradient(to bottom right, #8B0000, #F08080); */
+  background-color: 	#FFDAB9;
+}
+#main {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  /* padding-top: 10vh; */
+}
+/* .name:hover {
+  color: red;
+} */
+
+.avatar {
+  border-radius: 30%;
+}
+
+.profile_cont {
+  border-radius: 15%;
+  /* background-image: radial-gradient(#986d8e, #ffe6e6); */
+  background-color: #14f7b3;
+  margin: 8px;
+  padding-top: 40px;
+  width: 27%;
+  height: 350px;
+  text-align: center;
+  transition: transform ease 0.2s;
+  font-family: 'Amarante';
+  opacity: 0.8;
+  margin-top: 8vh;
+}
+
+.profile_cont:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Akaya Telivigala';
+  font-size: 25px;
+  width: 100%;
+}
